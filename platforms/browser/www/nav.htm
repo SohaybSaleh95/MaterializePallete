@@ -1,0 +1,13 @@
+<script>
+    $(document).ready(function () {
+        $(".button-collapse").sideNav();
+    });
+
+</script>
+<div class="nav-wrapper">
+    <a href="index.html" class="brand-logo">Materialize Pallete</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="side-nav" id="mobile-demo">
+        <li ng-repeat="item in navItems" style="background-color: {{ item.color }};"><a href="color.html?color={{ item.name }}"><i class="fa fa-paint-brush"></i> {{ item.name }}</a></li>
+    </ul>
+</div>

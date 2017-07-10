@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Materialize Pallete</name>
+    <description>
+        An app which will give all the colors in different degress, taken from materialize framework
+    </description>
+    <author email="sohaybsaleh95@gmail.com" href="http://facebook.com/sohayb.awwad">
+        Sohayb Saleh
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
